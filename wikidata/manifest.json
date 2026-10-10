@@ -1,0 +1,112 @@
+{
+  "dataset": "bnwiki",
+  "source_corpus": "Kala prepared Wikipedia corpus",
+  "files": [
+    {
+      "path": "bnwiki-heldout-00001.zip",
+      "bytes": 13031930,
+      "sha256": "15cc9584810a8a6481eb601d381ccc7fff3b50caad95ebacd3db002ac1305ebf"
+    },
+    {
+      "path": "bnwiki-heldout-00002.zip",
+      "bytes": 10859653,
+      "sha256": "dbfddeaa004c2b26eeea595f9eb5d5f619e5cebea8153af534bbd9001834f3c0"
+    },
+    {
+      "path": "bnwiki-heldout.tokens.tsv.zip",
+      "bytes": 2729507,
+      "sha256": "b879239b87fc28c4c79bd6925e194901da137eb9e2dce125622c4d06b906cf4e"
+    },
+    {
+      "path": "bnwiki-train-00001.zip",
+      "bytes": 12859085,
+      "sha256": "2619f701b7b32bea8cc6e7f927b69f47bdaebfef818127b9507cc899cb5a86eb"
+    },
+    {
+      "path": "bnwiki-train-00002.zip",
+      "bytes": 12796352,
+      "sha256": "cf45024f37daa1648908c1449b9a97ffd6f784cb32e6f817b88f847b53e1d38a"
+    },
+    {
+      "path": "bnwiki-train-00003.zip",
+      "bytes": 13070557,
+      "sha256": "43e8cdb4ed2fcc20b2cc4de7478ae076a9fd50c41323d67317e2c647629e8803"
+    },
+    {
+      "path": "bnwiki-train-00004.zip",
+      "bytes": 13049286,
+      "sha256": "06660ec20e78b06284bc2ad7344659cdaf41e093def0c406163f229eb47b2ac7"
+    },
+    {
+      "path": "bnwiki-train-00005.zip",
+      "bytes": 13071467,
+      "sha256": "74bc404fc81b4f857fc0e6429814d09f4125b0736ad2d044ab3d29e66399e5d0"
+    },
+    {
+      "path": "bnwiki-train-00006.zip",
+      "bytes": 12790564,
+      "sha256": "289918c43bcdeb3cbe03ff1fac22644c3417f37d300c1188d3ee7b6ee5868bbc"
+    },
+    {
+      "path": "bnwiki-train-00007.zip",
+      "bytes": 12446678,
+      "sha256": "7f237077d33c5869b4fe876a81dd37dbf16fd7137f87aa78f7ec7ce784cfe3a0"
+    },
+    {
+      "path": "bnwiki-train-00008.zip",
+      "bytes": 12927453,
+      "sha256": "5f11e0c6021411ccc460aee055b5c8c11cdb852857ccee606d3d17b805ecdd94"
+    },
+    {
+      "path": "bnwiki-train-00009.zip",
+      "bytes": 12895064,
+      "sha256": "77a85000e7d40e2d80e1b4390dc9d4f98c6bd583d299aa2be7b1f8553b782b2a"
+    },
+    {
+      "path": "bnwiki-train-00010.zip",
+      "bytes": 12951986,
+      "sha256": "612e2e48172d8bf14f0f7b93604a0f04befb7160e3f26d43e584c71212b779b0"
+    },
+    {
+      "path": "bnwiki-train-00011.zip",
+      "bytes": 12984173,
+      "sha256": "9332f1e4957d68b436dd769037abd5b2997258e319e40ffa1def939307b14782"
+    },
+    {
+      "path": "bnwiki-train-00012.zip",
+      "bytes": 12530316,
+      "sha256": "e1f9fefee983900f1cfd6620effd79b29f4ccd92fa13da142cfb1fbe6ab9fddd"
+    },
+    {
+      "path": "bnwiki-train-00013.zip",
+      "bytes": 12857836,
+      "sha256": "6f0789d31993d67ce1d289706ca57b18830fd3004074e1e8b83c8c7f4044591a"
+    },
+    {
+      "path": "bnwiki-train-00014.zip",
+      "bytes": 12547062,
+      "sha256": "e20b8ed70e9c3df210a89e9f6139d600a6ce5abdbb3357ae7995c8141dbf5c21"
+    },
+    {
+      "path": "bnwiki-train-00015.zip",
+      "bytes": 12474995,
+      "sha256": "fc44f9a702de976267b8dab7a9ed261b8740362426ec8e91e20ade38952b4d98"
+    },
+    {
+      "path": "bnwiki-train-00016.zip",
+      "bytes": 12633761,
+      "sha256": "57a605164b62f6c16454da12f10981b1d20b4bdb931a02858f8c7ddfddd159d9"
+    },
+    {
+      "path": "bnwiki-train-00017.zip",
+      "bytes": 3575012,
+      "sha256": "74e9ccab2e1b49e9422b9ee2123999dd5d82a19e2bb9f50b38ff0f7f4a91164c"
+    },
+    {
+      "path": "bnwiki-train.tokens.tsv.zip",
+      "bytes": 12847154,
+      "sha256": "ca4a833f3913e50b0f6444928d979738a6849abb6f5d181f778c309ba1b828d6"
+    }
+  ],
+  "attribution_file": "ATTRIBUTION.txt"
+}

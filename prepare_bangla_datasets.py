@@ -467,7 +467,7 @@ def prepare_wikipedia(source: Path, output: Path):
         "90/10 document-level train/heldout split. The JSONL gzip files contain prepared paragraphs; "
         "the token TSV gzip files contain derived counts. See Kala colemak-bangla results/phase2/REPORT.md.\n", encoding="utf-8")
     chunk_files = sorted(p for p in output.glob("*.zip"))
-    manifest = {"dataset":"bnwiki", "source_corpus_directory":str(source),
+    manifest = {"dataset":"bnwiki", "source_corpus":"Kala prepared Wikipedia corpus",
         "files":[{"path":p.name,"bytes":p.stat().st_size,"sha256":sha256_file(p)} for p in chunk_files],
         "attribution_file":"ATTRIBUTION.txt"}
     (output/"manifest.json").write_text(json.dumps(manifest,indent=2)+"\n",encoding="utf-8")

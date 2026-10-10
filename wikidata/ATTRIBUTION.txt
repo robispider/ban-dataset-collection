@@ -1,0 +1,6 @@
+Bangla Wikipedia (bnwiki), prepared by the Kala Bangla DH research workflow.
+Source/history: https://bn.wikipedia.org/
+Wikimedia dump archive: https://dumps.wikimedia.org/bnwiki/20261001/
+Wikipedia text is available under the Creative Commons Attribution-ShareAlike license; see https://en.wikipedia.org/wiki/Wikipedia:Copyrights and the linked source history.
+
+Preparation: Kala bnwiki-prose-v1 and bangla-dh-text-v1; paragraph deduplication; 90/10 document-level train/heldout split. The JSONL gzip files contain prepared paragraphs; the token TSV gzip files contain derived counts. See Kala colemak-bangla results/phase2/REPORT.md.

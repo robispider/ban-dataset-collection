@@ -1,0 +1,10 @@
+Bangla Newspaper Dataset by Kaggle user furcifer.
+Source: https://www.kaggle.com/datasets/furcifer/bangla-newspaper-dataset?resource=download
+The input folder contains data.json and data_v2.json. Their article source links and available metadata are preserved in each output record.
+
+Processing:
+- Kala bangla-dh-text-v1 normalization (NFC, punctuation mappings, invisible formatting removal, whitespace collapse).
+- Kala bnwiki-prose-v1 text cleanup (markup stripping, paragraphs of at least 3 tokens, at least 75% Bengali letters).
+- Exact paragraph deduplication in input order; first occurrence retained.
+- UTF-8 JSONL chunks are individually compressed as ZIP archives, each below 100,000,000 bytes.
+- See manifest.json for inputs, output hashes, counts and parameters.

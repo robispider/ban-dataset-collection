@@ -1,0 +1,10 @@
+BARD (Bangla Article Classification) dataset, associated with Tanvir Alam and Md Mofijul Islam.
+Project and dataset information: https://github.com/tanvirfahim15/BARD-Bangla-Article-Classifier
+The five source category folders are preserved as each output record's category.
+
+Processing:
+- Kala bangla-dh-text-v1 normalization (NFC, punctuation mappings, invisible formatting removal, whitespace collapse).
+- Kala bnwiki-prose-v1 text cleanup (markup stripping, paragraphs of at least 3 tokens, at least 75% Bengali letters).
+- Exact paragraph deduplication in input order; first occurrence retained.
+- UTF-8 JSONL chunks are individually compressed as ZIP archives, each below 100,000,000 bytes.
+- See manifest.json for inputs, output hashes, counts and parameters.
